@@ -1,0 +1,5 @@
+python-podman-compose (100:1.1.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/containers/podman-compose/releases/tag/v1.1.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Fri, 19 Apr 2024 19:22:04 +0800
