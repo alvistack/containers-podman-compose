@@ -1,0 +1,5 @@
+python-podman-compose source: file-without-copyright-information
+python-podman-compose source: no-debian-changes
+python-podman-compose source: source-contains-prebuilt-windows-binary
+python-podman-compose source: source-is-missing
+python-podman-compose source: source-package-encodes-python-version
