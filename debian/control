@@ -1,0 +1,29 @@
+Source: python-podman-compose
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/containers/podman-compose/tags
+Vcs-Browser: https://github.com/alvistack/containers-podman-compose
+Vcs-Git: https://github.com/alvistack/containers-podman-compose.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-podman-compose
+Architecture: all
+Description: Run docker-compose.yml using podman
+ An implementation of docker-compose with podman backend. The main
+ objective of this project is to be able to run docker-compose.yml
+ unmodified and rootless.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-dotenv,
+ python3-yaml,
