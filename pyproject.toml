@@ -30,7 +30,6 @@ keywords = [
     "podman",
     "podman-compose",
 ]
-license = "GPL-2.0-only"
 dynamic = ["version", "readme"]
 
 [project.urls]
